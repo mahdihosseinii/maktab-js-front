@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Shabnam';
+    src: url('..Fonts/shabnam.eot') format('eot'),
+           url('..Fonts/shabnam-Bold'),
+           url('..Fonts/shabnam-Light');
+  }
+
+/* Box-sizing border-box */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; direction: rtl;}
+body{
+    font-family: shabnam;
+    background-color: #f2f2f2;
+}
+.container{
+    display: flex;
+
+}
+.side_left{
+    background-color: red;
+    min-width: 25%;
+}
+
+.side_right{
+    display: flex;
+    justify-content: space-around;
+    min-width: 75%;
+}
+.item{
+    background-color: #ffffff;
+    width: 238px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.flex-item{
+    
+    width: 250px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: -2px 5px 8px #333;
+}
+.flex-item .flex-img{
+    width: 20%;
+    height: 100px;
+    background-image: linear-gradient(to bottom right, #f2f2f2 , #2fb4f7);background-image: linear-gradient(to bottom right, #f2f2f2 , #2fb4f7);
+}
+.contaner-menu{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-img{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

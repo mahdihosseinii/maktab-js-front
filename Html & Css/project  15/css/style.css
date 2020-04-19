@@ -1,0 +1,65 @@
+.container-khodekoala{
+    height: 100%;
+    background-color: #f2f2f2;
+    margin: 1em 0;
+    padding: 1em;
+    border: 5px inset #818181;
+}
+.khodekoala{
+    display: block;
+    margin: 0 auto;
+    border: 1px double #a1a1a1;
+    width: 30%;
+    height: 40%;
+    background: #25A9FC;
+}
+.koala:hover .st55{
+    transform: rotate(-1.5turn);
+}
+/* khode kherse */
+.container-khodekherse{
+    height: 100%;
+    background-color: #f2f2f2;
+    margin: 1em 0;
+    padding: 1em;
+    border: 5px inset #818181;
+}
+.khode-kherse{
+    position: relative;
+    display: block;
+    margin: 0 ;
+    width: 30%;
+    height: 40%; 
+    animation-name: khers;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+@keyframes khers{
+    0%{ left: 0;}
+    50%{left: 70%; }
+    100%{left: 0;}
+}
+
+/* khode babre */
+.container-khodebabre{
+    height: 100%;
+    background-color: #f2f2f2;
+    margin: 1em 0;
+    padding: 1em;
+    border: 5px inset #818181;
+}
+.khodebabre{
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 40%;
+    animation-name: babr;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes babr{
+    0%{ left: 0;}
+    50%{left: 70%; }
+    100%{left: 0; transform: rotate(90deg);}
+}
