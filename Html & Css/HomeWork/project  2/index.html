@@ -1,154 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>project</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-
 </head>
 
 <body>
-    <div class="main">
-        <div class="left-side">
-            <div class="watch">
-                <time> 10 : <strong>10</strong> </time>
-            </div>
-            <div class="date">
-                <p>یک شنبه ،۱۲ فروردین </p>
-            </div>
-            <div class="profile-menu">
-                <div class="profile">
-                    <img src="img/PicsArt_06-17-01.59.29.jpg" alt="photo">
-                    <div class="info--profile">
-                        <p>مهدی حسینی</p>
-                        <p class="job">
-                            توسعه دهنده
-                        </p>
-                    </div>
+    <div class="container">
+        <!-- Start right content -->
+        <div class="right-content">
+            <div class="inner-content__right">
+                <h5 class="sing">ورود</h5>
+                <div class="head-right">
+                    <p class="header">ورود به حساب کاربری</p>
+                    <p class="text-header">جهت ورود به برنامه نام کاربری و رمز عبور خود را وارد کنید</p>
                 </div>
-                <div class="menu">
-                    <ul class="menu-ul ">
-                        <div class="sidebar-li activ-side">
-                            <i class="fas fa-desktop"></i>
-                            <li>داشبورد</li>
-                        </div>
-                        <div class="sidebar-li">
-                            <i class="fas fa-envelope-open-text"></i>
-                            <li>صندوق پیام <span class="number-leftside">۱۸</span></li>
-                        </div>
-                        <div class="sidebar-li">
-                            <i class="fas fa-calendar-check"></i>
-                            <li>تیکت <span class="number-leftside">۱۸</span></li>
-                        </div>
-                        <ul>
-                            <div class="sidebar-li">
-                                <i class="fas fa-book-open"></i>
-                                <li>دانشنامه</li>
-                                <i class="fas fa-sort-down icon-down"></i></a>
-                            </div>
-                            <li>همه دانشنامه ها</li>
-                            <li>پیش نویس ها</li>
-                        </ul>
-                        <div class="sidebar-li">
-                            <i class="fas fa-calendar-check"></i>
-                            <li>اخبار</li>
-                            <i class="fas fa-sort-down icon-down"></i></a>
-                        </div>
-                        <div class="sidebar-li">
-                            <i class="fas fa-cog"></i>
-                            <li>مدیریت</li>
-                            <i class="fas fa-sort-down icon-down"></i></a>
-                        </div>
-                    </ul>
+                <div class="container-input">
+                    <label>
+                        <input type="text" placeholder="نام کاربری" class="btn-input">
+                        <i class="fas fa-user"></i>
+                    </label>
+                </div>
+                <br>
+                <label>
+                    <input type="password" placeholder="رمز عبور" class="btn-input">
+                    <i class="fas fa-lock"></i>
+                </label>
+                <div class="">
+                    <div class="">
+                        <input type=" text" placeholder="کد امنیتی">
+                        <i class="fas fa-th"></i>
+                    </div>
+                    <div class="">
+                        <img src="assets/img/random.jpg">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <button class="btn">ورود</button>
+                    <div class="">
+                        <input type="checkbox">
+                        <span>مرا به خاطر بسپار</span>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="top--menu">
-                <div class="banner--top">
-                    <div class="img--banner-top1"><img src="img/users.png" alt=""></div>
-                    <div class="detail">
-                        <p class="head--banner-text">تعداد کل کاربران</p>
-                        <p class="banner--number">۲۳۶</p>
-                        <p class="head--banner-text"><span
-                                style="color: #7067e8; font-size: 1.1em; margin-right: 5px;">۱۴۵</span> کاربر فعال</p>
-                    </div>
-
-                </div>
-                <div class="banner--top">
-                    <div class="img--banner-top2"><img src="img/tickets.png" alt=""></div>
-                    <div class="detail">
-                        <p class="head--banner-text">تعداد کل تیکت ها</p>
-                        <p class="banner--number">۸۵۶</p>
-                        <p class="head--banner-text"><span
-                                style="color: #7067e8; font-size: 1.1em; margin-right: 5px;">۵۳۲</span> تیکت بسته شده
-                        </p>
-                    </div>
-
-                </div>
-                <div class="banner--top">
-                    <div class="img--banner-top3"><img src="img/encyclopedias.png" alt=""></div>
-                    <div class="detail">
-                        <p class="head--banner-text">تعداد کل دانشنامه ها</p>
-                        <p class="banner--number">۶۱۹</p>
-                        <p class="head--banner-text"><span style="color: #6adeb7; font-size: 1.1em; margin-right: 5px;">
-                                ⇧٪۴/۶</span>نسبت به ماه گزشته</p>
-                    </div>
-                </div>
-                <div class="banner--top">
-                    <div class="img--banner-top4"><img src="img/messages.png" alt=""></div>
-                    <div class="detail">
-                        <p class="head--banner-text">تعداد کل خبر ها</p>
-                        <p class="banner--number">۱۲۵۳ </p>
-                        <p class="head--banner-text"><span
-                                style="color: #e63a36; font-size: 1.1em; margin-right: 5px;">⇩٪۶/۲</span>نسبت به ماه
-                            گزشته</p>
-                    </div>
-                </div>
-            </div>
-            <div class="body">
-                <div class="box1">
-                    <div class="body-info1">
-                        <p>صندوق پیام </p>
-                    </div>
-                </div>
-                <div class="box2">
-                    <div class="bodyinto2">
-                        <div class="action">
-
-                            <p>تیکت های ستاره دار <span class="action-box2">130</span></p>
-
-                        </div>
-                        <div class="content-box2">
-                            <p> باز (همراه پاسخ) <span class="number-contentbox2">۵۲</span></p>
-                        </div>
-                        <div class="content-box2">
-                            <p> باز (بدون پاسخ)<span class="number-contentbox2">۵۲</span></p>
-                        </div>
-                        <div class="content-box2">
-                            <p>بسته <span class="number-contentbox2">۵۲</span></p>
-                        </div>
+        <!-- End right content -->
 
 
-                    </div>
-                </div>
-                <div class="box3">
-                    <div class="body-info">
-                        <button>ماه گزشته</button>
-                        <p>خلاصه عملکرد</p>
-                    </div>
-                </div>
-                <div class="box4">
-
-                </div>
-            </div>
+        <!-- Start left content -->
+        <div class="left-content">
+            <img src="assets/img/Logo.png" alt="" class="image">
+            <span class="text">multianti-virus & cybersecurity</span>
         </div>
     </div>
-
+    <!-- End left content -->
 </body>
 
 </html>
