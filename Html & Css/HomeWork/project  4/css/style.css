@@ -1,0 +1,140 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../assets/Fonts/Poppins-Light.ttf) format("ttf");
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+/* 
+* layout site
+*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* 
+*   start image contant
+*/
+.container-all__image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11em;
+}
+.container-image__box{
+
+}
+.image-box{
+
+}
+.header-image{
+    color: #2f281e;
+    font-size: 1.2em;
+}
+.text-image{
+    color: #5d523e;
+}
+.span-image{
+    color: #5d523e;
+    font-size: 1.1em;
+    border-right: 2px solid #5d523e;;
+}
+.time-image{
+    color: #5d523e;
+    padding-left: 3px;
+}
+
+
+
+
+
+
+/* 
+* start content email
+*/
+.container-email{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #432b99;
+    border: none;
+    border-radius: 10px;
+    height: 300px;
+    margin-bottom: 14em;
+    margin-top: 14em;
+}
+/* .img-email__box{
+    position: relative;
+    bottom: -173px;
+} */
+.text-email__box{
+    color: #fdfffe;
+}
+.input-email__box{
+    padding: .7em 6em;
+    background: transparent;
+    border: 1px solid #a295cb;
+    border-radius: 10px;
+}
+::placeholder{
+    color: #d8d3e9;
+}
+
+
+
+
+/* 
+* Start footer
+*/
+.container-footer{
+    border-top: 1px solid #dde7f1;
+    border-bottom: 1px solid #dde7f1;
+    padding: 2em 0 2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+    
+}
+.left-footer{
+    width: 33%;
+    color: #968c83;
+}
+.right-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.container-footer__right{
+    width: 100%;
+}
+.container1{
+    order: 1;
+    list-style-type: none;
+    color: #2e271f;
+}
+.container2{
+    list-style-type: none;
+    order: 2;
+    color: #2e271f;
+}
+.container3{
+    list-style-type: none;
+    order: 3;
+    color: #2e271f;
+}
+.head-footer{
+    font-size: 1.4em;
+    padding-bottom: 1.3em;
+}
+.list-item__footer{
+    padding-bottom: .5em;
+    list-style-type: none;
+    color: #968c83;
+}
